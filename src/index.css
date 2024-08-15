@@ -1,0 +1,202 @@
+:root {
+/*---------------------------------------*/
+  --aqua: aqua;
+  --dark: black;
+  --light: white; 
+  --error: rgb(202, 6, 6);
+  --success: rgb(3, 102, 3);
+  --gray: rgb(240, 240, 240);
+  --gray-dark: rgb(20, 19, 19);
+  --naval-blue: rgba(1,33,55);
+  --electron-blue: rgb(8, 115, 187);
+  --custom-gray: rgb(175, 191, 207);
+  --light-web-blue: rgb(12, 209, 235);
+/*---------------------------------------*/
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+/*---------------------------------------*/
+}
+body {
+  margin: 0;
+  display: flex;
+  min-width: 600px;
+  min-height: 100vh;
+  background-color: var(--dark);
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  color: var(--electron-blue);
+}
+/*----------------------------- END --------------------------------*/
+/*------------------------ HEADER SECTION --------------------------*/
+section#header-main {
+  margin: 0;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--dark);
+  border-bottom: 0px solid var(--aqua);
+}
+section#header-main div#title-main {
+  width: 30%;
+  border: 0px solid var(--aqua);
+}
+section#header-main div#title-main p {
+  font-size: 50px;
+  color: var(--aqua);
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin: 25px 50px 25px 25px;
+}
+section#header-main div#title-main p span {
+  color: var(--light);
+}
+/*----------------------------- END --------------------------------*/
+/*------------------------ NAVBAR SECTION --------------------------*/
+section#header-main div#navbar-main {
+  width: 70%;
+  border: 0px solid var(--aqua);
+}
+section#navigation-panel {
+  width: 100%;
+}
+section#navigation-panel section#linkbar-main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+section#navigation-panel section#linkbar-main div {
+  width: calc(100% / 4);
+  margin: 40px auto 0 auto;
+  border: 0px solid var(--aqua);
+}
+section#navigation-panel section#linkbar-main div a {
+  font-size: 25px;
+  text-align: center;
+  color: var(--light);
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: 0px solid var(--electron-blue);
+}
+section#navigation-panel section#linkbar-main div a:hover {
+  color: var(--aqua);
+}
+section#navigation-panel section#linkbar-main div a #solidIcon {
+  color: var(--aqua);
+}
+/*----------------------------- END --------------------------------*/
+/*----------------------- PROJECT SECTION --------------------------*/
+div#project-main {
+  width: 100%; 
+  display: flex;
+  border-bottom: none;
+  flex-direction: column;
+  border: 1px solid var(--aqua);
+}
+div#project-main div#section-handler {
+  display: flex;
+  flex-direction: row;
+}
+div#project-main div#section-handler section#project-main-sub {
+  width: 50%;
+  height: auto;
+  border-bottom: 1px solid var(--aqua);
+}
+div#project-main div#section-handler section#project-main-sub:first-child {
+  border-right: 1px solid var(--aqua);
+}
+div#project-main div#section-handler section#project-main-sub div#project-link-img {
+  height: 420px;
+  margin: 30px 30px;
+  border-radius: 10px;
+  width: calc(100% - 64px);
+  border: 1px solid var(--aqua);
+  background-color: var(--naval-blue);
+}
+div#project-main div#section-handler section#project-main-sub div#project-link-img a#projectLink img#projectImg {
+  width: auto;
+  margin: 0 30px;
+  border-radius: 10px;
+  border: 1px solid var(--aqua);
+}
+div#project-main div#section-handler section#project-main-sub div#project-link-img div#description-paragraphs {
+  width: auto;
+  display: flex;
+  margin: 0 30px;
+  border-radius: 10px;
+  flex-direction: column;
+  border: 0px solid var(--aqua);
+}
+div#project-main div#section-handler section#project-main-sub div#project-link-img div#description-paragraphs p {
+  color: var(--light);
+}
+div#project-main div#section-handler section#project-main-sub div#project-link-img div#description-paragraphs p:nth-last-child(2) {
+  width: 50%;
+}
+div#project-main div#section-handler section#project-main-sub div#project-link-img div#description-paragraphs p:first-child {
+  font-size: x-large;
+  color: var(--aqua);
+  font-weight: normal;
+}
+div#project-main div#section-handler section#project-main-sub div#project-link-img div#description-paragraphs p:first-child span a {
+  color: var(--light);
+}
+div#project-main div#section-handler section#project-main-sub div#project-link-img div#description-paragraphs p a {
+  text-decoration: none;
+  color: var(--aqua);
+}
+div#project-main div#section-handler section#project-main-sub div#project-link-img div#description-paragraphs p a:hover {
+  text-decoration: underline;
+}
+/*----------------------------- END --------------------------------*/
+/*----------------------- FOOTER SECTION ---------------------------*/
+section#footer {
+  height: auto;
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  color: var(--aqua);
+  border: 0px solid var(--aqua);
+  background-color: var(--dark);
+  border-top: 0px solid var(--aqua);
+}
+section#footer div#sub-footer p:nth-child(1) {
+  margin: 0;
+}
+section#footer div#sub-footer p:nth-child(2) {
+  margin: 0;
+}
+section#footer div#sub-footer p:nth-child(1) a#footer-icon:not(:last-child) {
+  padding-right: 20px;
+}
+section#footer div#sub-footer p:nth-child(1) a#footer-icon {
+  color: var(--light);
+  font-size: xx-large;
+}
+section#footer div#sub-footer p:nth-child(1) a#footer-icon:hover {
+  color: var(--light);
+}
+section#footer div#sub-footer p:nth-child(2) span#footer-logo {
+  line-height: 1;
+  font-size: 50px;
+  text-align: right;
+  font-weight: bold;
+  color: var(--aqua);
+  border-radius: 10px;
+  padding: 15px 3px 0 30px;
+  border: 3px solid var(--aqua);
+  background-color: var(--naval-blue);
+  font-family: "Segoe UI", sans-serif;
+}
+section#footer div#sub-footer p:nth-child(3) {
+  margin-top: 20px;
+  font-size: large;
+  color: var(--aqua);
+  letter-spacing: 1px;
+}
+/*----------------------------- END --------------------------------*/
