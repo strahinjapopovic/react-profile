@@ -2,6 +2,9 @@
 
 ## React Profile Web Info
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b1ecde03-17c0-4da8-9b0c-d431649bbad6/deploy-status)](https://app.netlify.com/sites/strahinja-popovic-webprofile/deploys) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-aqua.svg?style=flat)](https://opensource.org/licenses/MIT) 
+
 ![node version](https://img.shields.io/npm/v/node?logo=nodedotjs&label=Node.js%20RTE%20npm) ![npm version](https://img.shields.io/npm/v/npm?logo=npm&label=Node%20Package%20Manager%20npm) ![react version](https://img.shields.io/npm/v/react?logo=react&label=React%20npm) ![Vite version](https://img.shields.io/npm/v/vite?logo=vite&label=Vite%20bundling%20npm)
 
 <p align="left">
@@ -23,13 +26,13 @@
     <a href="https://www.youtube.com/@strahinja-popovic-ch"><img alt="Youtube: strahinja-popovic-ch" src="https://img.shields.io/badge/YouTube-red?&logo=youtube&style=social" target="_blank" /></a>
 </p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-aqua.svg?style=for-the-badge)](https://opensource.org/licenses/MIT) 
+
 
 ## React and Vite bundller architecture application with `Node.js v22.6.0`, `NPM-v10.5.1`, `React-v18.3.1` and `Vite-v5.3.4`
 
 ## Deployed Application
 
-Application `react-profile` has been deployed [strahinjapopovic-webprofile at netlify](https://strahinja-popovic-webprofile.netlify.app/)
+Application `react-profile` has been deployed at [netlify](https://strahinja-popovic-webprofile.netlify.app/)
 
 ## License
 
