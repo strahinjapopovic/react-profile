@@ -25,7 +25,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-aqua.svg?style=for-the-badge)](https://opensource.org/licenses/MIT) 
 
-## React and Vite bundller architecture application with `Node.js v22.6.0`, `NPM-v10.5.1`, `Express.js-v4.19.2`, `React-v18.3.1` and `Vite-v5.3.4`
+## React and Vite bundller architecture application with `Node.js v22.6.0`, `NPM-v10.5.1`, `React-v18.3.1` and `Vite-v5.3.4`
 
 ## Deployed Application
 
