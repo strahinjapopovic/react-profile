@@ -29,7 +29,7 @@
 
 ## Deployed Application
 
-Application `react-profile` has been deployed [netlify](https://www.something.com/)
+Application `react-profile` has been deployed [strahinjapopovic-webprofile at netlify](https://strahinja-popovic-webprofile.netlify.app/)
 
 ## License
 
